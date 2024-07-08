@@ -1,5 +1,6 @@
 package com.ks.airtrade;
 
+import com.ks.airtrade.commands.Shop;
 import com.ks.airtrade.constants.LogMessage;
 import com.ks.airtrade.constants.Theme;
 import com.ks.airtrade.file.Bank;
@@ -29,25 +30,27 @@ public class AirTrade extends JavaPlugin {
         Bank.bank.options().copyDefaults(true);
         Bank.save();
 
+        getCommand("shop").setExecutor(new Shop());
+
         console.sendMessage(Theme.mainTheme("Setting done."));
     }
 
     @Override
     public void onDisable() {
         ConsoleCommandSender console = getServer().getConsoleSender();
-        console.sendMessage(Theme.mainTheme("Saving bank data."));
+        console.sendMessage(Theme.exitTheme("Saving bank data."));
         Bank.save();
-        console.sendMessage(Theme.mainTheme("Bank data saved!"));
+        console.sendMessage(Theme.exitTheme("Bank data saved!"));
 
-        console.sendMessage(Theme.mainTheme("----------------------------"));
-        console.sendMessage(Theme.mainTheme("      *        *************"));
-        console.sendMessage(Theme.mainTheme("     * *             *      "));
-        console.sendMessage(Theme.mainTheme("    *   *            *      "));
-        console.sendMessage(Theme.mainTheme("   *     *           *      "));
-        console.sendMessage(Theme.mainTheme("  *********          *      "));
-        console.sendMessage(Theme.mainTheme(" *         *         *      "));
-        console.sendMessage(Theme.mainTheme("*           *        *      "));
-        console.sendMessage(Theme.mainTheme("----------------------------"));
-        console.sendMessage(Theme.mainTheme("Thank you for using."));
+        console.sendMessage(Theme.exitTheme("----------------------------"));
+        console.sendMessage(Theme.exitTheme("      *        *************"));
+        console.sendMessage(Theme.exitTheme("     * *             *      "));
+        console.sendMessage(Theme.exitTheme("    *   *            *      "));
+        console.sendMessage(Theme.exitTheme("   *     *           *      "));
+        console.sendMessage(Theme.exitTheme("  *********          *      "));
+        console.sendMessage(Theme.exitTheme(" *         *         *      "));
+        console.sendMessage(Theme.exitTheme("*           *        *      "));
+        console.sendMessage(Theme.exitTheme("----------------------------"));
+        console.sendMessage(Theme.exitTheme("Thank you for using."));
     }
 }

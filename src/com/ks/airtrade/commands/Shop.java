@@ -14,6 +14,8 @@ import org.bukkit.inventory.Inventory;
 import org.bukkit.inventory.ItemStack;
 import org.bukkit.inventory.meta.SkullMeta;
 
+import java.util.List;
+
 public class Shop implements CommandExecutor {
 
     @Override
@@ -35,6 +37,7 @@ public class Shop implements CommandExecutor {
             assert player_head_meta != null;
             player_head_meta.setOwnerProfile(player.getPlayerProfile());
             player_head_meta.setDisplayName(ChatColor.YELLOW + player.getName());
+            player_head_meta.setLore(List.of(ChatColor.GREEN+"餘額: "+balance));
             player_head.setItemMeta(player_head_meta);
 
             ItemStack[] items = {player_head};

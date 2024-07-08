@@ -11,7 +11,8 @@
   <component name="ChangeListManager">
     <list default="true" id="b87e0946-928f-4213-982d-149eb2985b23" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/ks/airtrade/commands/Shop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ks/airtrade/commands/Shop.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/ks/airtrade/AirTrade.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ks/airtrade/AirTrade.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/ks/airtrade/constants/ShopName.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ks/airtrade/constants/ShopName.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
