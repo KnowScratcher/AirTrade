@@ -1,6 +1,7 @@
 name: AirTrade
 version: v0.0.1
 author: Knowscratcher
+website: https://github.com/KnowScratcher/AirTrade
 main: com.ks.airtrade.AirTrade
 api-version: 1.14
 commands:
