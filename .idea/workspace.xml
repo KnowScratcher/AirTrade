@@ -10,13 +10,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b87e0946-928f-4213-982d-149eb2985b23" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/ks/airtrade/constants/LogMessage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AirTrade.iml" beforeDir="false" afterPath="$PROJECT_DIR$/AirTrade.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/ks/airtrade/AirTrade.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ks/airtrade/AirTrade.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/ks/airtrade/constants/Theme.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ks/airtrade/constants/Theme.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/ks/airtrade/file/Bank.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ks/airtrade/file/Bank.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/plugin.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/plugin.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/ks/airtrade/commands/Shop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ks/airtrade/commands/Shop.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
