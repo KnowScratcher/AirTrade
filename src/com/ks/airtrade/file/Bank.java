@@ -2,11 +2,10 @@ package com.ks.airtrade.file;
 
 import com.ks.airtrade.constants.Theme;
 import org.bukkit.Bukkit;
-import org.bukkit.ChatColor;
 import org.bukkit.command.ConsoleCommandSender;
 import org.bukkit.configuration.file.FileConfiguration;
 import org.bukkit.configuration.file.YamlConfiguration;
-import org.bukkit.plugin.Plugin;
+import org.bukkit.entity.Player;
 
 import java.io.File;
 import java.io.IOException;
@@ -38,12 +37,52 @@ public class Bank {
         bank = YamlConfiguration.loadConfiguration(file);
     }
 
-    public static void save() {
+    public static boolean save() {
         try {
             bank.save(file);
+            return true;
         }catch (IOException e) {
             console.sendMessage(Theme.errorTheme("Bank file cannot be saved!!! Please check the permissions"));
+            return false;
         }
+    }
+
+    public static boolean register(String name) {
+        bank.set(name,0);
+        return save();
+    }
+
+    public static boolean register(Player player) {
+        bank.set(player.getName(),0);
+        return save();
+    }
+
+    public static int getUserBalance(String name) {
+        return bank.getInt(name,-1);
+    }
+
+    public static int getUserBalance(Player player) {
+        return bank.getInt(player.getName(),-1);
+    }
+
+    public static boolean setUserBalance(String name,int balance) {
+        bank.set(name,balance);
+        return save();
+    }
+
+    public static boolean setUserBalance(Player player,int balance) {
+        bank.set(player.getName(),balance);
+        return save();
+    }
+
+    public static boolean addUserBalance(String name,int balance) {
+        bank.set(name,getUserBalance(name)+balance);
+        return save();
+    }
+
+    public static boolean addUserBalance(Player player,int balance) {
+        bank.set(player.getName(),getUserBalance(player)+balance);
+        return save();
     }
 
 }

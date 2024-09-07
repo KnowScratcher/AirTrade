@@ -10,9 +10,19 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b87e0946-928f-4213-982d-149eb2985b23" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/com/ks/airtrade/actions/SellManage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/ks/airtrade/commands/Balance.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/ks/airtrade/constants/PriceManager.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/ks/airtrade/shops/ShopBank.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/ks/airtrade/shops/ShopMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/config.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/ks/airtrade/AirTrade.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ks/airtrade/AirTrade.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/ks/airtrade/commands/Shop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ks/airtrade/commands/Shop.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/ks/airtrade/constants/DisplayNames.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/ks/airtrade/constants/ShopName.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ks/airtrade/constants/ShopName.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/ks/airtrade/file/Bank.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/ks/airtrade/file/Bank.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/plugin.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/plugin.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,6 +38,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 8
@@ -48,12 +61,17 @@
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "D:/Storage/Data/Scripts/Java/Minecraft/Plugin/Server/plugins",
-    "project.structure.last.edited": "Artifacts",
-    "project.structure.proportion": "0.0",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.14453125",
     "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "preferences.lookFeel"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Storage\Data\Scripts\Java\Minecraft\Plugin\AirTrade\src" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -64,5 +82,16 @@
       <updated>1720276918784</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

@@ -8,3 +8,7 @@ commands:
   shop:
     description: 打開商店
     usage: /shop
+  balance:
+    description: 查看餘額
+    usage: /balance
+    aliases: bal
